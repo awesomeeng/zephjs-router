@@ -1,0 +1,48 @@
+{
+  "name": "zephjs-router",
+  "version": "0.0.1",
+  "author": "the awesome engineering company",
+  "license": "MIT",
+  "contributors": [
+    "Glen R. Goodwin"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+	  "zephjs": "0.2.0"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+  },
+  "description": "Router component built on top of ZephJS with support for lazy loading.",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomeeng/zephjs.git"
+  },
+  "keywords": [
+	"zeph",
+    "zephjs",
+	"route",
+	"router",
+    "routing",
+	"zeph route",
+    "zephjs route",
+	"zeph router",
+    "zephjs router",
+	"zeph routing",
+    "zephjs routing",
+    "awesome",
+    "awesomeeng",
+    "awesome",
+    "engineering"
+  ],
+  "bugs": {
+    "url": "https://github.com/awesomeeng/zephjs/issues"
+  },
+  "homepage": "https://github.com/awesomeeng/zephjs#readme"
+}
