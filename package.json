@@ -1,6 +1,6 @@
 {
   "name": "zephjs-router",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "the awesome engineering company",
   "license": "MIT",
   "contributors": [
@@ -14,7 +14,7 @@
   },
   "optionalDependencies": {},
   "scripts": {
-	  "lint": "eslint zephjs-router.js",
+	  "lint": "eslint src",
 	  "bundle": "zeph bundle src/zephjs-router.js zephjs-router.js"
   },
   "description": "A simple router element for targeting portions of your webpage at specific content based on the URL.",
