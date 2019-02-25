@@ -15,12 +15,3 @@
 :host ::slotted(zephjs-router-route[selected]) {
 	display: block;
 }
-
-/* :host() * {
-	display: none;
-}
-
-:host [selected] {
-	opacity: 1;
-	transition: opacity 0.25s;
-} */
