@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>zephjs-router</title>
+		<script src="../../zephjs-router.js" type="module"></script>
+		<style>
+			body {
+				font-size: 24px;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Lazy Loading Router Example</h2>
+		<div>This router example that uses lazy loading to load the content for each route only when requested.</div>
+		<br/>
+		<h3>Example</h3>
+		<div style="margin-bottom: 20px;">
+			Click on one of the following to change the URL Hash. The content below should change accordingly.
+			<br/>
+			Set hash to <a href="#abc">#abc</a> or <a href="#def">#def</a> or <a href="#ghi">#ghi</a> or <a href="#jkl">#jkl</a>.
+		</div>
+		<zephjs-router>
+			<zephjs-route match="abc" against="hash" lazy="/examples/LazyLoading/abc.html">
+			</zephjs-route>
+			<zephjs-route match="def" against="hash" lazy="/examples/LazyLoading/def.html">
+			</zephjs-route>
+			<zephjs-route match="ghi" against="hash" lazy="/examples/LazyLoading/ghi.html">
+			</zephjs-route>
+			<zephjs-route match="jkl" against="hash" lazy="/examples/LazyLoading/jkl.html">
+			</zephjs-route>
+			<div>
+				You should never see this content.
+			</div>
+		</zephjs-router>
+	</body>
+</html>

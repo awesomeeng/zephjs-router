@@ -6,7 +6,7 @@
   "contributors": [
     "Glen R. Goodwin"
   ],
-  "main": "./index.js",
+  "main": "./zephjs-router.js",
   "dependencies": {
   },
   "devDependencies": {
@@ -14,15 +14,17 @@
   },
   "optionalDependencies": {},
   "scripts": {
+	  "lint": "eslint zephjs-router.js",
+	  "bundle": "zeph bundle src/zephjs-router.js zephjs-router.js"
   },
-  "description": "Router component built on top of ZephJS with support for lazy loading.",
+  "description": "A simple router element for targeting portions of your webpage at specific content based on the URL.",
   "directories": {
     "doc": "docs",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awesomeeng/zephjs.git"
+    "url": "git+https://github.com/awesomeeng/zephjs-router.git"
   },
   "keywords": [
 	"zeph",
@@ -42,7 +44,7 @@
     "engineering"
   ],
   "bugs": {
-    "url": "https://github.com/awesomeeng/zephjs/issues"
+    "url": "https://github.com/awesomeeng/zephjs-router/issues"
   },
-  "homepage": "https://github.com/awesomeeng/zephjs#readme"
+  "homepage": "https://github.com/awesomeeng/zephjs-router#readme"
 }
