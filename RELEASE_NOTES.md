@@ -1,5 +1,5 @@
 # zephjs-loading Release Notes
 
-#### **Version 0.0.1**
+#### **Version 1.0.0**
 
- - Alpha release and ongoing development work.
+ - Initial release with support for lazy loading.
