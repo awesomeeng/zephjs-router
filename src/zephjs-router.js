@@ -1,6 +1,6 @@
 // (c) 2019, The Awesome Engineering Company, https://awesomeneg.com
 
-import {ZephComponents,ZephUtils,html,css,attribute,onAdd,onCreate,onAttribute} from "./Zeph.js";
+import {ZephComponents,ZephUtils,html,css,attribute,onAdd,onCreate,onAttribute} from "./zeph.min.js";
 
 ZephComponents.define("zephjs-route",()=>{
 	html("<slot></slot>");

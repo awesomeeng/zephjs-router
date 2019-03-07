@@ -1,21 +1,21 @@
 {
   "name": "zephjs-router",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "the awesome engineering company",
   "license": "MIT",
   "contributors": [
     "Glen R. Goodwin"
   ],
   "main": "./zephjs-router.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-	  "zephjs": "0.2.0"
+    "zephjs": "0.4.0"
   },
   "optionalDependencies": {},
   "scripts": {
-	  "lint": "eslint src",
-	  "bundle": "zeph bundle src/zephjs-router.js zephjs-router.js"
+    "lint": "eslint src",
+    "serve": "zeph serve",
+    "bundle": "zeph bundle src/zephjs-router.js zephjs-router.js"
   },
   "description": "A simple router element for targeting portions of your webpage at specific content based on the URL.",
   "directories": {
@@ -27,16 +27,16 @@
     "url": "git+https://github.com/awesomeeng/zephjs-router.git"
   },
   "keywords": [
-	"zeph",
+    "zeph",
     "zephjs",
-	"route",
-	"router",
+    "route",
+    "router",
     "routing",
-	"zeph route",
+    "zeph route",
     "zephjs route",
-	"zeph router",
+    "zeph router",
     "zephjs router",
-	"zeph routing",
+    "zeph routing",
     "zephjs routing",
     "awesome",
     "awesomeeng",
