@@ -9,7 +9,7 @@
   "main": "./zephjs-router.js",
   "dependencies": {},
   "devDependencies": {
-    "zephjs": "0.4.0"
+    "zephjs": "0.4.2"
   },
   "optionalDependencies": {},
   "scripts": {
